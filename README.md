@@ -9,3 +9,5 @@ Program to read and convert wrfout files to create_forcing.exe
 In order to use this program, wrf should be configured with lat-lon projections, so an example was provided for wps. Besides, user should enable PREC_ACC_NC and PREC_ACC_C in wrf namelist.input by adding *prec_acc_dt = 60,* for each domain.
 ### namelist.input.CDAQS
 A special namelist file was created for create_forcing.exe, with different units and conversions for variables in wrf-based forcing files.
+---
+Contact me if any help needed: lcw@cdaes.cn
